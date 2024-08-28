@@ -21,7 +21,7 @@ def main():
 
     # Calculate and print the Jaccard coefficient
     coefficient = jaccard_coefficient(str1, str2)
-    print(f"Jaccard coefficient: {coefficient:.2f}")
+    print(f"The Jaccard coefficient between the strings 'Data Science' and 'Machine Learning' is : {coefficient:.2f}")
 
 
 if __name__ == "__main__":

@@ -17,7 +17,7 @@ def main():
     try:
         # Calculate and print the Hamming distance
         distance = hamming_distance(str1, str2)
-        print(f"Hamming distance: {distance}")
+        print(f"The Hamming Distance between the strings 'Data Science' and 'Machine Lear' is : {distance}")
     except ValueError as e:
         print(e)
 
